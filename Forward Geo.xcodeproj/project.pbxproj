@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60B896920A5943E00E781EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B896820A5943E00E781EC /* AppDelegate.m */; };
+		B60B896C20A5943E00E781EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B896B20A5943E00E781EC /* ViewController.m */; };
+		B60B896F20A5943E00E781EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60B896D20A5943E00E781EC /* Main.storyboard */; };
+		B60B897120A5943E00E781EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B60B897020A5943E00E781EC /* Assets.xcassets */; };
+		B60B897420A5943E00E781EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60B897220A5943E00E781EC /* LaunchScreen.storyboard */; };
+		B60B897720A5943E00E781EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B897620A5943E00E781EC /* main.m */; };
+		B60B898120A5943E00E781EC /* Forward_GeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B898020A5943E00E781EC /* Forward_GeoTests.m */; };
+		B60B898C20A5943E00E781EC /* Forward_GeoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B898B20A5943E00E781EC /* Forward_GeoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B60B897D20A5943E00E781EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60B895C20A5943E00E781EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60B896320A5943E00E781EC;
+			remoteInfo = "Forward Geo";
+		};
+		B60B898820A5943E00E781EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60B895C20A5943E00E781EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60B896320A5943E00E781EC;
+			remoteInfo = "Forward Geo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60B896420A5943E00E781EC /* Forward Geo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forward Geo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60B896720A5943E00E781EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60B896820A5943E00E781EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B60B896A20A5943E00E781EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B60B896B20A5943E00E781EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B60B896E20A5943E00E781EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B60B897020A5943E00E781EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B60B897320A5943E00E781EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B60B897520A5943E00E781EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60B897620A5943E00E781EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B60B897C20A5943E00E781EC /* Forward GeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forward GeoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60B898020A5943E00E781EC /* Forward_GeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forward_GeoTests.m; sourceTree = "<group>"; };
+		B60B898220A5943E00E781EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B60B898720A5943E00E781EC /* Forward GeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forward GeoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60B898B20A5943E00E781EC /* Forward_GeoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Forward_GeoUITests.m; sourceTree = "<group>"; };
+		B60B898D20A5943E00E781EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60B896120A5943E00E781EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60B897920A5943E00E781EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60B898420A5943E00E781EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60B895B20A5943E00E781EC = {
+			isa = PBXGroup;
+			children = (
+				B60B896620A5943E00E781EC /* Forward Geo */,
+				B60B897F20A5943E00E781EC /* Forward GeoTests */,
+				B60B898A20A5943E00E781EC /* Forward GeoUITests */,
+				B60B896520A5943E00E781EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60B896520A5943E00E781EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60B896420A5943E00E781EC /* Forward Geo.app */,
+				B60B897C20A5943E00E781EC /* Forward GeoTests.xctest */,
+				B60B898720A5943E00E781EC /* Forward GeoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60B896620A5943E00E781EC /* Forward Geo */ = {
+			isa = PBXGroup;
+			children = (
+				B60B896720A5943E00E781EC /* AppDelegate.h */,
+				B60B896820A5943E00E781EC /* AppDelegate.m */,
+				B60B896A20A5943E00E781EC /* ViewController.h */,
+				B60B896B20A5943E00E781EC /* ViewController.m */,
+				B60B896D20A5943E00E781EC /* Main.storyboard */,
+				B60B897020A5943E00E781EC /* Assets.xcassets */,
+				B60B897220A5943E00E781EC /* LaunchScreen.storyboard */,
+				B60B897520A5943E00E781EC /* Info.plist */,
+				B60B897620A5943E00E781EC /* main.m */,
+			);
+			path = "Forward Geo";
+			sourceTree = "<group>";
+		};
+		B60B897F20A5943E00E781EC /* Forward GeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B60B898020A5943E00E781EC /* Forward_GeoTests.m */,
+				B60B898220A5943E00E781EC /* Info.plist */,
+			);
+			path = "Forward GeoTests";
+			sourceTree = "<group>";
+		};
+		B60B898A20A5943E00E781EC /* Forward GeoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B60B898B20A5943E00E781EC /* Forward_GeoUITests.m */,
+				B60B898D20A5943E00E781EC /* Info.plist */,
+			);
+			path = "Forward GeoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60B896320A5943E00E781EC /* Forward Geo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60B899020A5943E00E781EC /* Build configuration list for PBXNativeTarget "Forward Geo" */;
+			buildPhases = (
+				B60B896020A5943E00E781EC /* Sources */,
+				B60B896120A5943E00E781EC /* Frameworks */,
+				B60B896220A5943E00E781EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forward Geo";
+			productName = "Forward Geo";
+			productReference = B60B896420A5943E00E781EC /* Forward Geo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B60B897B20A5943E00E781EC /* Forward GeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60B899320A5943E00E781EC /* Build configuration list for PBXNativeTarget "Forward GeoTests" */;
+			buildPhases = (
+				B60B897820A5943E00E781EC /* Sources */,
+				B60B897920A5943E00E781EC /* Frameworks */,
+				B60B897A20A5943E00E781EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60B897E20A5943E00E781EC /* PBXTargetDependency */,
+			);
+			name = "Forward GeoTests";
+			productName = "Forward GeoTests";
+			productReference = B60B897C20A5943E00E781EC /* Forward GeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B60B898620A5943E00E781EC /* Forward GeoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60B899620A5943E00E781EC /* Build configuration list for PBXNativeTarget "Forward GeoUITests" */;
+			buildPhases = (
+				B60B898320A5943E00E781EC /* Sources */,
+				B60B898420A5943E00E781EC /* Frameworks */,
+				B60B898520A5943E00E781EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60B898920A5943E00E781EC /* PBXTargetDependency */,
+			);
+			name = "Forward GeoUITests";
+			productName = "Forward GeoUITests";
+			productReference = B60B898720A5943E00E781EC /* Forward GeoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60B895C20A5943E00E781EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aniruddha Kavathekar";
+				TargetAttributes = {
+					B60B896320A5943E00E781EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B60B897B20A5943E00E781EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B60B896320A5943E00E781EC;
+					};
+					B60B898620A5943E00E781EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B60B896320A5943E00E781EC;
+					};
+				};
+			};
+			buildConfigurationList = B60B895F20A5943E00E781EC /* Build configuration list for PBXProject "Forward Geo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60B895B20A5943E00E781EC;
+			productRefGroup = B60B896520A5943E00E781EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60B896320A5943E00E781EC /* Forward Geo */,
+				B60B897B20A5943E00E781EC /* Forward GeoTests */,
+				B60B898620A5943E00E781EC /* Forward GeoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60B896220A5943E00E781EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B897420A5943E00E781EC /* LaunchScreen.storyboard in Resources */,
+				B60B897120A5943E00E781EC /* Assets.xcassets in Resources */,
+				B60B896F20A5943E00E781EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60B897A20A5943E00E781EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60B898520A5943E00E781EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60B896020A5943E00E781EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B896C20A5943E00E781EC /* ViewController.m in Sources */,
+				B60B897720A5943E00E781EC /* main.m in Sources */,
+				B60B896920A5943E00E781EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60B897820A5943E00E781EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B898120A5943E00E781EC /* Forward_GeoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60B898320A5943E00E781EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60B898C20A5943E00E781EC /* Forward_GeoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B60B897E20A5943E00E781EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60B896320A5943E00E781EC /* Forward Geo */;
+			targetProxy = B60B897D20A5943E00E781EC /* PBXContainerItemProxy */;
+		};
+		B60B898920A5943E00E781EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60B896320A5943E00E781EC /* Forward Geo */;
+			targetProxy = B60B898820A5943E00E781EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B60B896D20A5943E00E781EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60B896E20A5943E00E781EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B60B897220A5943E00E781EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B60B897320A5943E00E781EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B60B898E20A5943E00E781EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B60B898F20A5943E00E781EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B60B899120A5943E00E781EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Forward Geo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aniruddha.Forward-Geo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B60B899220A5943E00E781EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Forward Geo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aniruddha.Forward-Geo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B60B899420A5943E00E781EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Forward GeoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aniruddha.Forward-GeoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forward Geo.app/Forward Geo";
+			};
+			name = Debug;
+		};
+		B60B899520A5943E00E781EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Forward GeoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aniruddha.Forward-GeoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forward Geo.app/Forward Geo";
+			};
+			name = Release;
+		};
+		B60B899720A5943E00E781EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Forward GeoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aniruddha.Forward-GeoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Forward Geo";
+			};
+			name = Debug;
+		};
+		B60B899820A5943E00E781EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Forward GeoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aniruddha.Forward-GeoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Forward Geo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60B895F20A5943E00E781EC /* Build configuration list for PBXProject "Forward Geo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60B898E20A5943E00E781EC /* Debug */,
+				B60B898F20A5943E00E781EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60B899020A5943E00E781EC /* Build configuration list for PBXNativeTarget "Forward Geo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60B899120A5943E00E781EC /* Debug */,
+				B60B899220A5943E00E781EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60B899320A5943E00E781EC /* Build configuration list for PBXNativeTarget "Forward GeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60B899420A5943E00E781EC /* Debug */,
+				B60B899520A5943E00E781EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60B899620A5943E00E781EC /* Build configuration list for PBXNativeTarget "Forward GeoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60B899720A5943E00E781EC /* Debug */,
+				B60B899820A5943E00E781EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60B895C20A5943E00E781EC /* Project object */;
+}
